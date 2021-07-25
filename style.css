@@ -45,13 +45,22 @@ h1{
     background-image: url(images/dream-bg.png);
    background-repeat: no-repeat;
    background-position: right;
+   padding-top: 30px;
+   margin-top: 30px;
+   
 }
 .sec-sec img{
-    width:80%;
+    width:90%;
+    
+}
+.sec-sec p{
+    max-width: 500px;
 }
 .sec-sec{
     width:50%;
     padding-right: 20px;
+    margin:4px;
+   
    
 }
 .sec-button{
@@ -59,4 +68,51 @@ h1{
     background-image:linear-gradient(red, orange);
     padding:10px 30px;
     border-radius:5px;
+}
+
+.flexibal-container{
+display:flex;
+
+
+}
+.pic-hov{
+    
+    display:inline-block;
+
+    transition: 4s ease-out ;
+}
+.pic-hov:hover{
+ transform: scale(1.01) rotateZ(80deg);
+ box-shadow:-5px 0 50px 40px orange;
+ 
+}
+.last-part{
+width: 40%;
+margin-left:5%;
+margin-right: 5%;
+padding-left: 10px;
+border-radius: 10px;
+box-shadow:10px 10px 40px gray;
+border-left: 10px solid rgb(156, 32, 32);
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position: left;
+}
+#last-border{
+    border-left:7px solid;
+   border-image:linear-gradient(red, rgb(0, 0, 0));
+   border-image-slice: 1;
+   background-image:linear-gradient(rgb(89, 89, 175), rgb(230, 220, 220));
+}
+#last-right{
+    border-left:7px solid;
+    background-image:linear-gradient(blue, red);
+    border-image-slice:1;
+    color:rgba(55, 233, 20, 0.801);
+}
+footer p{
+    text-align: center;
+    color:magenta;
 }
