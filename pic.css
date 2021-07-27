@@ -1,0 +1,43 @@
+.first{
+    display: flex;
+    border:1px solid black;
+    
+    
+    
+}
+.ak img{
+    width:95%;
+    height:300px;
+    border:1px solid black;
+   
+}
+.ak{
+    display:inline-block;
+
+    transition: 4s ease;
+}
+.ak:hover{
+    
+    transform: scale(1.01) rotateZ(80deg);
+ box-shadow:-5px 0 50px 40px orange;
+ 
+   
+}
+.dui img{
+    width:95%;
+    height:300px;
+    border:1px solid black;
+    
+}
+.tin img{
+    width:95%;
+    height:300px;
+    border:1px solid black;
+    
+}
+.char img{
+    width:95%;
+    height:300px;
+    border:1px solid black;
+    
+}
